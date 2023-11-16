@@ -1,7 +1,7 @@
 {
   description = "REW is free software for room acoustic measurement, loudspeaker measurement and audio device measurement.";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/585d673896676c9f0cb9719676861c3d1eed3653"; # pinned unstable
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
 
   outputs = { self, nixpkgs }:
     let

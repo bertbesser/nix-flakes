@@ -1,7 +1,7 @@
 {
   description = "A tool to create audio processing pipelines for applications such as active crossovers or room correction.";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/585d673896676c9f0cb9719676861c3d1eed3653"; # pinned unstable
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs";
 
   outputs = { self, nixpkgs }:
     let
