@@ -8,7 +8,7 @@
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
 
-      version = "v1.0.3";
+      version = "v2.0.1";
       meta = {
         homepage = "https://github.com/HEnquist/camilladsp/tree/${version}";
         description = "A tool to create audio processing pipelines for applications such as active crossovers or room correction.";
