@@ -24,7 +24,7 @@
 
             src = fetchzip {
               url = "https://github.com/HEnquist/camilladsp/releases/download/${version}/camilladsp-linux-amd64.tar.gz";
-              hash = "sha256-zWOyPmaHRi2VIRvzFpS02tPlXNn90ogU2Q/YRx7l6eI=";
+              hash = "sha256-T+DfYBQKXwgAeycCQHAGuhFAg9VFhvY8ebCuEEFGn3A=";
             };
 
             phases = [
