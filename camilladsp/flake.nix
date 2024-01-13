@@ -8,7 +8,7 @@
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
 
-      version = "v1.0.3";
+      version = "v2.0.1";
       meta = {
         homepage = "https://github.com/HEnquist/camilladsp/tree/${version}";
         description = "A tool to create audio processing pipelines for applications such as active crossovers or room correction.";
@@ -24,7 +24,7 @@
 
             src = fetchzip {
               url = "https://github.com/HEnquist/camilladsp/releases/download/${version}/camilladsp-linux-amd64.tar.gz";
-              hash = "sha256-zWOyPmaHRi2VIRvzFpS02tPlXNn90ogU2Q/YRx7l6eI=";
+              hash = "sha256-T+DfYBQKXwgAeycCQHAGuhFAg9VFhvY8ebCuEEFGn3A=";
             };
 
             phases = [
